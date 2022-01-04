@@ -52,162 +52,164 @@
     
     </header>
     <main>
-<!-- фильтр галереи -->
-<section>
+<!-- =================== ФИЛЬТР ГАЛЕРЕИ =========================== -->
+<section class="portfolio">
     <div class="container">
         <h1 class="hidden">portfolio</h1>
-        <div class="filter">
-            <ul class="filter-list">
-                <li><button type="button" class="filter-button">Все</button></li>
-                <li><button type="button" class="filter-button">Веб-сайты</button></li>
-                <li><button type="button" class="filter-button">Приложения</button></li>
-                <li><button type="button" class="filter-button">Дизайн</button></li>
-                <li><button type="button" class="filter-button">Маркетинг</button></li>
+        <div class="portfolio-filter">
+            <ul class="portfolio-filter__list">
+                <li class="portfolio-filter__item"><button type="button" class="portfolio-filter__button">Все</button></li>
+                <li class="portfolio-filter__item"><button type="button" class="portfolio-filter__button">Веб-сайты</button></li>
+                <li class="portfolio-filter__item"><button type="button" class="portfolio-filter__button">Приложения</button></li>
+                <li class="portfolio-filter__item"><button type="button" class="portfolio-filter__button">Дизайн</button></li>
+                <li class="portfolio-filter__item"><button type="button" class="portfolio-filter__button">Маркетинг</button></li>
             </ul>
         </div>       
-        <!-- примеры работ -->
-    <ul class="example-list">
-        <li class="example-item"> 
-            <a href="#" class="example-link"> 
-                <div class="thumb-box">
-                    <img src="./images/techcrack.jpg" alt="site Tech crack">
-                    <div class="overlay-box">
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+
+
+<!-- ==================== ПРИМЕРЫ РАБОТ ============================ -->
+    <ul class="portfolio-list">
+        <li class="portfolio-item"> 
+            <a href="#" class="example"> 
+                <div class="example__thumb-box">
+                    <img class="example__img" src="./images/techcrack.jpg" alt="site Tech crack">
+                    <div class="example__overlay">
+                        <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                 </div>
-                <div class="example-description">
-                    <h2 class="work-title">Технокряк</h2>
-                    <p class="work-category">Веб-сайт</p>
+                <div class="example__description">
+                    <h2 class="example__title">Технокряк</h2>
+                    <p class="example__category">Веб-сайт</p>
                 </div>
             </a>
         </li>
-        <li class="example-item">
-            <a href="#" class="example-link">
-                <div class="thumb-box">
-                    <img src="./images/neworlean.jpg" alt="poster New Orlean">
-                    <div class="overlay-box">
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+            <a href="#" class="example">
+                <div class="example__thumb-box">
+                    <img class="example__img" src="./images/neworlean.jpg" alt="poster New Orlean">
+                    <div class="example__overlay">
+                        <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                 </div>
-                <div class="example-description">
-                    <h2 class="work-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="work-category">Дизайн</p>
+                <div class="example__description">
+                    <h2 class="example__title">Постер New Orlean vs Golden Star</h2>
+                    <p class="example__category">Дизайн</p>
                 </div>
             </a>
         </li>
-        <li class="example-item">
-            <a href="#" class="example-link">
-                <div class="thumb-box">
-                    <img src="./images/seafood.jpg" alt="restraunt Sea Food">
-                    <div class="overlay-box">
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+            <a href="#" class="example">
+                <div class="example__thumb-box">
+                    <img class="example__img" src="./images/seafood.jpg" alt="restraunt Sea Food">
+                    <div class="example__overlay">
+                        <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                 </div>
-                <div class="example-description">
-                    <h2 class="work-title">Ресторан Seafood</h2>
-                    <p class="work-category">Приложение</p>
+                <div class="example__description">
+                    <h2 class="example__title">Ресторан Seafood</h2>
+                    <p class="example__category">Приложение</p>
                 </div>
             </a>
         </li>
-        <li class="example-item">
-            <a href="#" class="example-link">
-                <div class="thumb-box">
-                    <img src="./images/prime.jpg" alt="project Prime">
-                    <div class="overlay-box">
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+            <a href="#" class="example">
+                <div class="example__thumb-box">
+                    <img class="example__img" src="./images/prime.jpg" alt="project Prime">
+                    <div class="example__overlay">
+                        <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                 </div>
-                <div class="example-description">
-                    <h2 class="work-title">Проект Prime</h2>
-                    <p class="work-category">Маркетинг</p>
+                <div class="example__description">
+                    <h2 class="example__title">Проект Prime</h2>
+                    <p class="example__category">Маркетинг</p>
                 </div>
             </a>                
         </li>
-        <li class="example-item">
-                <a href="#" class="example-link">
-                    <div class="thumb-box">
-                    <img src="./images/boxes.jpg" alt="project Boxes">
-                        <div class="overlay-box">
-                            <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+                <a href="#" class="example">
+                    <div class="example__thumb-box">
+                    <img class="example__img" src="./images/boxes.jpg" alt="project Boxes">
+                        <div class="example__overlay">
+                            <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                                 эту платформу для цифрового
                                 шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
-                    <div class="example-description">
-                        <h2 class="work-title">Проект Boxes</h2>
-                        <p class="work-category">Приложение</p>
+                    <div class="example__description">
+                        <h2 class="example__title">Проект Boxes</h2>
+                        <p class="example__category">Приложение</p>
                     </div>
                 </a>
         </li>
-        <li class="example-item">
-            <a href="#" class="example-link">
-                <div class="thumb-box">
-                    <img src="./images/inspiration.jpg" alt="project Inspiration">
-                    <div class="overlay-box">
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+            <a href="#" class="example">
+                <div class="example__thumb-box">
+                    <img class="example__img" src="./images/inspiration.jpg" alt="project Inspiration">
+                    <div class="example__overlay">
+                        <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                 </div>
-                <div class="example-description">
-                    <h2 class="work-title">Inspiration has no Borders</h2>
-                    <p class="work-category">Веб-сайт</p>
+                <div class="example__description">
+                    <h2 class="example__title">Inspiration has no Borders</h2>
+                    <p class="example__category">Веб-сайт</p>
                 </div>
             </a>
         </li>
-        <li class="example-item">
-                <a href="#" class="example-link">
-                    <div class="thumb-box">
-                        <img src="./images/limitedit.jpg" alt="project Limited Edition">
-                        <div class="overlay-box">
-                            <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+                <a href="#" class="example">
+                    <div class="example__thumb-box">
+                        <img class="example__img" src="./images/limitedit.jpg" alt="project Limited Edition">
+                        <div class="example__overlay">
+                            <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                                 эту платформу для цифрового
                                 шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
-                    <div class="example-description">
-                        <h2 class="work-title">Издание Limited Edition</h2>
-                        <p class="work-category">Дизайн</p>
+                    <div class="example__description">
+                        <h2 class="example__title">Издание Limited Edition</h2>
+                        <p class="example__category">Дизайн</p>
                     </div>
                 </a>
         </li>
-        <li class="example-item">
-            <a href="#" class="example-link">
-                <div class="thumb-box">
-                    <img src="./images/lab.jpg" alt="our marketing">
-                    <div class="overlay-box">
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+            <a href="#" class="example">
+                <div class="example__thumb-box">
+                    <img class="example__img" src="./images/lab.jpg" alt="our marketing">
+                    <div class="example__overlay">
+                        <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                 </div>
-                <div class="example-description">
-                    <h2 class="work-title">Проект LAB</h2>
-                    <p class="work-category">Маркетинг</p>
+                <div class="example__description">
+                    <h2 class="example__title">Проект LAB</h2>
+                    <p class="example__category">Маркетинг</p>
                 </div>
             </a>
         </li>
-        <li class="example-item">
-            <a href="#" class="example-link">
-                <div class="thumb-box">
-                <img src="./images/groving.jpg" alt="Growing Business">
-                    <div class="overlay-box">
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют
+        <li class="portfolio-item">
+            <a href="#" class="example">
+                <div class="example__thumb-box">
+                <img class="example__img" src="./images/groving.jpg" alt="Growing Business">
+                    <div class="example__overlay">
+                        <p class="example__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                 </div>
-                <div class="example-description">
-                    <h2 class="work-title">Growing Business</h2>
-                    <p class="work-category">Приложение</p>
+                <div class="example__description">
+                    <h2 class="example__title">Growing Business</h2>
+                    <p class="example__category">Приложение</p>
                 </div>
             </a>
         </li>
