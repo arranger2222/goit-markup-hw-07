@@ -1,28 +1,30 @@
-.benefits__list {
-  display: flex;
-  justify-content: space-between;
-}
+.benefits {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.benefits__item {
-  width: 270px;
-}
+  &__item {
+    width: 270px;
+  }
 
-.benefits__icon-frame {
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  &__icon-frame {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.benefits__label {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  margin-bottom: 10px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  &__label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
 }

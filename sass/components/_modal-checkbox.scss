@@ -1,13 +1,3 @@
-.modal-checkbox__link {
-  color: var(--secondary-color);
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-}
-
-.modal-checkbox__link:hover {
-  cursor: pointer;
-}
-
 .modal-checkbox {
   position: relative;
   display: flex;
@@ -17,49 +7,59 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: $secondary-color;
   padding-bottom: 30px;
-}
 
-.modal-checkbox__label {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
-.modal-checkbox__icon {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  border: 2px solid #000;
-  border-radius: 2px;
-  margin-right: 9px;
-  transition: border var(--main-transition);
-}
+    &__link {
+      color: $secondary-color;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+    }
 
-.modal-checkbox--hidden:checked + .modal-checkbox__icon {
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
-  background-image: url("../images/icon check.svg");
-  background-size: contain;
-  background-origin: border-box;
-}
+    &__link:hover {
+      cursor: pointer;
+    }
 
-.modal-checkbox--hidden:focus ~ .modal-checkbox__icon {
-  border: 2px solid var(--secondary-color);
-}
+    &__label {
+      font-size: 14px;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+      color: $secondary-text-color;
+    }
+    &__icon {
+      display: inline-block;
+      width: 16px;
+      height: 15px;
+      border: 2px solid #000;
+      border-radius: 2px;
+      margin-right: 9px;
+      transition: border $main-transition;
+    }
 
-.modal-checkbox:hover .modal-checkbox__icon {
-  border: 2px solid var(--secondary-color);
-}
+    &--hidden:checked + .modal-checkbox__icon {
+      background-color: $secondary-color;
+      border-color: $secondary-color;
+      background-image: url("../images/icon check.svg");
+      background-size: contain;
+      background-origin: border-box;
+    }
 
-.modal-checkbox--hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
+    &--hidden:focus ~ .modal-checkbox__icon {
+      border: 2px solid $secondary-color;
+    }
+
+    &:hover .modal-checkbox__icon {
+      border: 2px solid $secondary-color;
+    }
+
+    &--hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
 }

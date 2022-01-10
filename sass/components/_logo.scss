@@ -6,12 +6,11 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   padding-top: 24px;
-}
 
-.logo__web {
-  color: var(--secondary-color);
+  &__web {
+    color: $secondary-color;
+  }
 }
-
 .footer__logo {
   color: #fff;
   padding: 0;
