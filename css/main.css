@@ -294,6 +294,9 @@ section {
   text-transform: uppercase;
 }
 
+.activity {
+  padding-top: 0px;
+}
 .activity__list {
   display: -webkit-box;
   display: -ms-flexbox;
